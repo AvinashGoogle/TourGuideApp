@@ -15,10 +15,10 @@ public class MainActivity extends AppCompatActivity implements FoodActivity.OnFr
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TabLayout tabLayout = (TabLayout)findViewById(R.id.tabLayout);
-        tabLayout.addTab(tabLayout.newTab().setText("Food"));
-        tabLayout.addTab(tabLayout.newTab().setText("Hotels"));
-        tabLayout.addTab(tabLayout.newTab().setText("Sights"));
-        tabLayout.addTab(tabLayout.newTab().setText("History"));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.food));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.hotels));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.sights));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.history));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager)findViewById(R.id.viewPager);

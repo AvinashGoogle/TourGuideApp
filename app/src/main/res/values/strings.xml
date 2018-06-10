@@ -55,4 +55,8 @@
     <string name="jantarmantar_body">\nUNESCO World Heritage Site inscription: 2010 \n\nHours : Opens 9AM \n\nAddress: Gangori Bazaar, J.D.A. Market,
         Kanwar Nagar, Jaipur, Rajasthan 302002 \n\nThe Jantar Mantar monument in Jaipur, Rajasthan is a collection of nineteen architectural astronomical
         instruments built by the Rajput king Sawai Jai Singh II, and completed in 1734.</string>
+    <string name="food">Food</string>
+    <string name="hotels">Hotels</string>
+    <string name="sights">Sights</string>
+    <string name="history">History</string>
 </resources>
